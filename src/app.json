@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/mine/address/list/main",
+        "pages/mine/address/form/main"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#eeeeee",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "ecommerce",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "dark"
+    }
+}

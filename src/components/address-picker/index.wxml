@@ -1,0 +1,9 @@
+<view class="i-class i-cell i-input {{ error ? 'i-input-error' : '' }} {{ mode === 'wrapped' ? 'i-input-wrapped' : '' }}">
+	<view wx:if="{{ title }}" class="i-cell-hd i-input-title">{{ title }}</view>
+	<picker mode="region" disabled="{{ disabled }}" value="{{ value }}" custom-item="{{ customItem }}" slot="content" class="i-cell-bd i-input-input {{ right ? 'i-input-input-right' : '' }}" id="address-picker" bindchange="handleChange" bindcancel="handleCancel">
+		<view class="i-input-input-picker-text">{{ _currentValue }}</view>
+	</picker>
+	<view class="i-cell-ft" wx:if="{{ map }}">
+        <i-icon type="coordinates" size="20" color="#2d8cf0" bindtap="handleChoose"></i-icon>
+    </view>
+</view>

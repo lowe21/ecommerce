@@ -1,0 +1,12 @@
+{
+    "navigationBarTitleText": "收货地址",
+    "enablePullDownRefresh": true,
+    "usingComponents": {
+        "i-message": "../../../../components/message/index",
+        "i-toast": "../../../../components/toast/index",
+        "i-cell-group": "../../../../components/cell-group/index",
+        "i-cell": "../../../../components/cell/index",
+        "i-icon": "../../../../components/icon/index",
+        "i-button": "../../../../components/button/index"
+    }
+}

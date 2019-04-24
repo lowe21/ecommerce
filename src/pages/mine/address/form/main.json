@@ -1,0 +1,13 @@
+{
+    "navigationBarTitleText": "设置地址",
+    "usingComponents": {
+        "i-message": "../../../../components/message/index",
+        "i-toast": "../../../../components/toast/index",
+        "i-cell-group": "../../../../components/cell-group/index",
+        "i-cell": "../../../../components/cell/index",
+        "i-input": "../../../../components/input/index",
+        "i-address-picker": "../../../../components/address-picker/index",
+        "i-icon": "../../../../components/icon/index",
+        "i-button": "../../../../components/button/index"
+    }
+}
