@@ -40,7 +40,6 @@ export default {
             this[event.mp.target.id] = event.mp.detail.detail.value
         },
         changeAddress (event) {
-            console.log(event)
             let detail = event.mp.detail.detail
             let address = detail.value
             if (!Help.isEmpty(this.address) && this.address.join('') !== address.join('')) {
