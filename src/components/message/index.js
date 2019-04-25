@@ -2,7 +2,7 @@ const default_data = {
     visible: false,
     content: '',
     duration: 2,
-    type: 'default' // default || success || warning || error
+    type: 'default', // default || success || warning || error
 };
 
 let timmer = null;
